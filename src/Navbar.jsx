@@ -7,7 +7,7 @@ export default function Navbar() {
       <div><Link to="/">Mohan Lal Badoli</Link></div>
       <div>
         <Link to="/">Home</Link>
-        <Link to="/biography">Biography</Link>
+        <Link to="/about">About</Link>
         <Link to="/vision">My Guiding Lights</Link>
         <Link to="/gallery">Gallery</Link>
         <Link to="/contact">Contact</Link>

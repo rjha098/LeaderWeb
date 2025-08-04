@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar.jsx";
-import Footer from "./components/Footer.jsx";
+import Navbar from "./Navbar.jsx";
+import Footer from "./Footer.jsx";
 import Home from "./pages/Home.jsx";
 import Biography from "./pages/Biography.jsx";
 import Vision from "./pages/Vision.jsx";
@@ -13,7 +13,7 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/biography" element={<Biography />} />
+        <Route path="/about" element={<Biography />} />
         <Route path="/vision" element={<Vision />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
